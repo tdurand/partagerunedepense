@@ -1,0 +1,90 @@
+#{extends 'main.html' /} 
+#{set 'title'}
+	&{'views.form.pagetitle'}
+#{/set}
+
+#{set 'description'}
+	&{'views.form.description'}
+#{/set}
+
+#{script 'form.js' /}
+
+<div id="main">
+
+#{ifErrors}
+<p class="error">&{'view.form.errors'}</p>
+#{/ifErrors} 
+ 
+<h3>&{'views.form.title1'}</h3>
+
+<form name="cmaForm" id="cmaForm" action="/result" method="post"> 
+<fieldset><legend>&{'Etape'} 1/2</legend> 
+	<h4>&{'views.form.step1.message1'}</h4> 
+	<p>
+	<label for="nbPers">&{'Nb_Pers'}</label>
+	<input id="nbPers" type="text" name="nbPers" value="2" size="3" min="2" max="20" required="required" />
+	</p>
+    <h4>&{'views.form.step1.message2'}</h4> 
+    <p>
+    <label for="devise">&{'Devise'}</label>
+	<input id="devise" type="text" name="devise" value="&#8364;" size="3" required="required" />
+    </p>
+	</fieldset>
+	<div id="center" >
+	<p><script type="text/javascript"><!--
+	google_ad_client = "pub-3285617699776547";
+	/* 728x90, date de création 03/10/10 */
+	google_ad_slot = "9476399743";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	//-->
+	</script>
+	<script type="text/javascript"
+	src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script></p>
+	</div>
+	<fieldset><legend>&{'Etape'} 2/2</legend> 
+	<h4>&{'views.form.step2.message1'}</h4> 
+	<p><i>&{'views.form.step2.message2'}</i></p>
+	<table cellpadding="5" cellspacing="0" border="0" id="groupePersonnes"> 
+	
+		<tr> 
+			<th>&{'Nom'}</th>
+			<th>&{'Montant_depense'}</th> 
+            <th>&{'Coeff'}</th>
+            <th>&{'Email'} (&{'facultatif'})</th> 
+            
+		</tr> 
+		
+		<tr class="unePersonne"> 
+			<td class="pNom"> 
+				<input type="text" id="nom-pers-1" name="nom-pers-1" required="required" placeholder="&{'Nom'}" /> 
+			</td> 
+			<td class="pMontant"> 
+				<input type="text" size="5" id="montant-pers-1" name="montant-pers-1" placeholder="0" min="0" required="required" /><span class="devise"></span>
+                
+			</td> 
+            <td class="pCoeff"> 
+				<input type="text" size="2" id="coeff-pers-1" name="coeff-pers-1" value="1" min="0" required="required" /> 
+			</td> 
+            <td class="pEmail"> 
+				<input class="email" type="email" id="email-pers-1" name="email-pers-1" placeholder="&{'Email'}" /> 	
+			</td> 
+		</tr> 
+	
+	</table>
+	
+	
+	
+	</fieldset> 
+	<div id="center"><p><input class="submit" id="submit" type="submit" value="&{'views.form.submit'}"></p></div>
+</form> 
+
+
+<script>
+majValidation();
+</script>
+
+</div>
+
+
