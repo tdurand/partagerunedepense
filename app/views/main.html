@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ 
+<title>#{get 'title' /}</title> 
+
+<meta name="description" content="#{get 'description' /}" >
+
+ 
+ <!-- standalone page styling (can be removed) --> 
+
+    
+<link rel="stylesheet" type="text/css" href="@{'/public/stylesheets/styleform.css'}"/>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+<script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script> 
+
+
+
+
+#{get 'moreScripts' /}
+
+
+
+<script>
+$.tools.validator.localize("fr", {
+	':email'  		: '&{'views.js.validator.email'}',
+	':number' 		: '&{'views.js.validator.number'}',
+	'[max]'	 		: '&{'views.js.validator.max'} $1',
+	'[min]'	 		: '&{'views.js.validator.min'} $1',
+	'[required]' 	: '&{'views.js.validator.required'}'
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18828118-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+</head> 
+<body>
+
+<header>
+
+<div id="header">
+	
+	<div class="languageselection">
+  <a href="@{Application.changeLanguage('fr')}" ><img src="@{'/public/images/french.png'}"></a>
+  <a href="@{Application.changeLanguage('en')}" ><img src="@{'/public/images/english.png'}"></a>
+  </div> 
+	
+	<h1>&{'views.header.title'}</h1> 
+	<h2>&{'views.header.subtitle'}</h2>
+
+</div>
+
+<div class="menu"> 
+        <ul> 
+            <li><a href="@{Application.index()}">Application</a></li> 
+            <li><a href="@{Application.contact()}">Contact</a></li>  
+        </ul> 
+        <br style="clear: left" /> 
+ </div> 
+ </header>
+
+	#{doLayout /}
+	
+
+  #{standard/footer /}
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+#Mobile
+views.mobile.accueil.title=Share an expense
+views.mobile.accueil.message1=An easy solution to the puzzle of accounts between friends !
+views.mobile.accueil.btnstart=Start !
+
+views.mobile.form.title=Form
+views.mobile.form.labeldevise=Currency :
+views.mobile.form.labelparticipants=Participants:
+views.mobile.form.btnajouter=Add
+views.mobile.form.btnpartager=Share !
+
+views.mobile.result.title=Result
+views.mobile.result.subtitle1=Summary
+views.mobile.result.message1=The cost per person is
+views.mobile.result.subtitle2=To balance your accounts:
+
+views.mobile.dialogpersonne.title=Infos
+views.mobile.dialogpersonne.nom=Name
+views.mobile.dialogpersonne.montantdepense=Amount spent
+views.mobile.dialogpersonne.coeff=Coeff
+views.mobile.dialogpersonne.email=Email
+views.mobile.dialogpersonne.btnannuler=Cancel
+views.mobile.dialogpersonne.btnok=OK
+
+views.mobile.messDoit=owes
+views.mobile.messA=to
+views.mobile.messErrorNom=Please enter the name
+views.mobile.messErrorParticipants=Please add at least one participant
+views.mobile.btnsuppr=Delete
+views.mobile.btnback=Back
+
+
+
+#Header
+views.header.title=Share an expense
+views.header.subtitle=It's really easy !
+
+#Index
+views.index.pagetitle=Share an expense, It's really easy !
+view.index.linktoform=Start sharing your expense!
+view.index.title1=An easy solution to the puzzle of accounts between friends :
+view.index.texteintro1=
+view.index.texteintro2=
+view.index.texteintro3=<strong>Shareanexpense.com</strong> allows you to free yourself from a tedious task <strong>by calculating the solution to balance your accounts</strong>: you simply enter the total amount spent by each person and the application does the rest!
+views.index.description=
+
+
+#Form
+
+#html
+views.form.description=Share an expense, collecting the information.
+views.form.pagetitle=Share an expense : Fill out the form
+views.form.title1=Fill out the form :
+views.form.step1.message1=How many people are affected by this expenditure?
+Nb_Pers=Nb Pers
+views.form.step1.message2=What is the currency?
+Devise=Currency
+Etape=Step
+Nom=Name
+Montant_depense=Amount spent
+Coeff=Coeff
+views.form.step2.message1=Enter the amount spent by each person
+Email=Email 
+facultatif=Optional
+views.form.submit=Share the expense
+views.form.step2.message2=The field "coeff" is used to weight the amount paid by the person. (1 = Pay for person 2 = Pay for 2 people ...)
+
+#js
+views.js.validator.email=Please enter a valid email address
+views.js.validator.number=Enter a value below
+views.js.validator.max=Enter a value below
+views.js.validator.min=Enter a value greater than
+views.js.validator.required=Please complete this field
+
+#Result
+views.result.pagetitle=Share an expense : Result
+views.result.title1=Result : 
+view.result.coutunitaire=The cost per person is
+view.result.recapitulatif=Summary
+view.result.equilibrage=To balance your accounts
+Solde=Balance
+view.result.transaction=<strong>%1s</strong> owes <strong>%2s %3s</strong> to <strong>%4s</strong>
+views.result.description=Result of sharing with a summary and list of transactions to be performed to balance the books.
+
+#Errors
+view.form.errors=There was errors in the form
+
+#Contact
+views.contact.description=Share an expense : Contact form
+views.contact.pagetitle=Share an expense : Contact form
+views.contact.title1=Contact us
+views.contact.paragraph1=Send us your suggestions at the following address: contact@partagerunedepense.fr
+
+

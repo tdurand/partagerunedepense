@@ -1,0 +1,43 @@
+.messError
+{
+  color:red;
+}
+
+p {
+  
+  text-align:justify;
+  
+}
+table#resultPersonnes
+{
+  
+    border-collapse: collapse;
+    line-height: 1em;
+  
+}
+table#resultPersonnes th
+{
+  border-right: 2px solid #fff;
+  color:#fff;
+  text-shadow: #145072 0px -1px 1px;
+  text-align:center;
+  padding:0.8em;
+  background: #5E87B0 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#81A8CE), to(#5E87B0));
+}
+table#resultPersonnes tr {
+ background-color:#fff;
+ border-bottom: 2px solid #c0c0c0;
+}
+table#resultPersonnes td {
+ color:black;
+ padding:0.8em;
+ text-align:left;
+}
+
+.chooseversion
+{
+ 
+  font-style:italic;
+  font-size:0.9em;
+  
+}
