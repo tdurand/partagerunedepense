@@ -44,7 +44,7 @@ view.index.linktoform=Commencez à partager votre dépense !
 view.index.title1=Une solution simple au casse-tête des comptes entre amis :
 view.index.texteintro1=Qui n’a jamais eu à faire les comptes après des vacances entre amis, une soirée, ou toute autre activité en groupe ?
 view.index.texteintro2=Après avoir recensé toute les dépenses, il faut très souvent faire preuve de patience pour réussir à équilibrer les comptes et trouver qui doit combien à qui !
-view.index.texteintro3=<strong>Partagerunedepense.fr</strong> vous permet de vous affranchir de cette tâche fastidieuse en <strong>calculant la solution pour équilibrer vos comptes pour vous</strong> : il vous suffit simplement de rentrer le montant total dépensé par chaque personne et l’application fait le reste !
+view.index.texteintro3=<strong>Partagerunedepense</strong> vous permet de vous affranchir de cette tâche fastidieuse en <strong>calculant la solution pour équilibrer vos comptes pour vous</strong> : il vous suffit simplement de rentrer le montant total dépensé par chaque personne et l’application fait le reste !
 views.index.description=Partager une depense vous offre une solution simple pour équilibrer vos comptes entre amis : vous avez simplement besoin de renseigner le montant dépensé par chaque personne, et l'application vous donne la solution !
 
 
@@ -92,6 +92,6 @@ view.form.errors=There was errors in the form
 views.contact.description=Partager une dépense : Formulaire de contact
 views.contact.pagetitle=Partager une dépense : Contact
 views.contact.title1=Contactez nous !
-views.contact.paragraph1=Faites-nous part de vos suggestions à l'adresse suivante : contact@partagerunedepense.fr
+views.contact.paragraph1=Faites-nous part de vos suggestions à l'adresse suivante : tibo.durand+pud[at]gmail.com
 
 

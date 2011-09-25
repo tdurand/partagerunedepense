@@ -44,7 +44,7 @@ view.index.linktoform=Start sharing your expense!
 view.index.title1=An easy solution to the puzzle of accounts between friends :
 view.index.texteintro1=
 view.index.texteintro2=
-view.index.texteintro3=<strong>Shareanexpense.com</strong> allows you to free yourself from a tedious task <strong>by calculating the solution to balance your accounts</strong>: you simply enter the total amount spent by each person and the application does the rest!
+view.index.texteintro3=<strong>Shareanexpense</strong> allows you to free yourself from a tedious task <strong>by calculating the solution to balance your accounts</strong>: you simply enter the total amount spent by each person and the application does the rest!
 views.index.description=
 
 
@@ -92,6 +92,6 @@ view.form.errors=There was errors in the form
 views.contact.description=Share an expense : Contact form
 views.contact.pagetitle=Share an expense : Contact form
 views.contact.title1=Contact us
-views.contact.paragraph1=Send us your suggestions at the following address: contact@partagerunedepense.fr
+views.contact.paragraph1=Send us your suggestions at the following address: tibo.durand+pud[at]gmail.com
 
 
